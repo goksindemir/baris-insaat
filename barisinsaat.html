@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Barış İnşaat - Ahmet Turan Demir ile güvenilir yapı çözümleri.">
+  <title>Barış İnşaat | Ahmet Turan Demir</title>
+
+  <!-- CSS dosyamızı bağlıyoruz -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <!-- HEADER -->
+  <header class="site-header" id="anasayfa">
+    <div class="container header-content">
+
+      <div class="brand">
+        <p>GÜVENLE YÜKSELEN YAPILAR</p>
+        <h1>Barış <span>İnşaat</span></h1>
+        <h2>Sağlam temeller, kalıcı yaşam alanları.</h2>
+      </div>
+
+      <!-- Hocanın "arası boşluk kalmış" dediği yeri dolduran kısım -->
+      <div class="header-center-info">
+        <div class="header-info-item">
+          <span>📞 Telefon & İletişim</span>
+          <a href="tel:+905333760886">0533 376 08 86</a>
+        </div>
+        <div class="header-info-item">
+          <span>📍 Merkez / Konum</span>
+          <p>Urla / İzmir</p>
+        </div>
+      </div>
+
+      <div class="logo company-logo">
+        <div class="company-logo-icon">
+          <svg viewBox="0 0 120 120" aria-label="Barış İnşaat logosu">
+            <rect x="4" y="4" width="112" height="112" rx="16" fill="#ca6733"/>
+            <path d="M13 52 L60 14 L107 52" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="23" y="50" width="74" height="58" fill="none" stroke="#ffffff" stroke-width="6" rx="3"/>
+            <rect x="33" y="61" width="20" height="22" rx="2" fill="#ffffff"/>
+            <text x="38" y="78" fill="#102a43" font-size="21" font-family="Arial" font-weight="bold">B</text>
+            <rect x="67" y="61" width="20" height="22" rx="2" fill="#ffffff"/>
+            <text x="73" y="78" fill="#102a43" font-size="21" font-family="Arial" font-weight="bold">İ</text>
+            <rect x="53" y="86" width="14" height="22" rx="2" fill="#d5a548"/>
+          </svg>
+        </div>
+
+        <div class="company-logo-text">
+          <strong>BARIŞ</strong>
+          <span>İNŞAAT</span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- MENÜ -->
+  <nav class="main-nav">
+    <div class="container">
+      <ul class="nav-list">
+
+        <li><a href="#anasayfa">Ana Sayfa</a></li>
+
+        <li class="mega-parent">
+          <a href="#hizmetler">Hizmetlerimiz ▾</a>
+
+          <!-- Mega Menü -->
+          <div class="mega-menu">
+            <div>
+              <h3>Yapı Hizmetleri</h3>
+              <a href="#hizmetler">Konut Projeleri</a>
+              <a href="#hizmetler">Villa Yapımı</a>
+              <a href="#hizmetler">Ticari Yapılar</a>
+            </div>
+
+            <div>
+              <h3>Uzmanlık Alanları</h3>
+              <a href="#hizmetler">Kentsel Dönüşüm</a>
+              <a href="#hizmetler">Anahtar Teslim Proje</a>
+              <a href="#hizmetler">Proje Danışmanlığı</a>
+            </div>
+
+            <div class="mega-text">
+              <p>Her projede kaliteli işçilik, güvenli yapı ve zamanında teslim anlayışı.</p>
+              <a href="#iletisim" class="small-button">Teklif Al</a>
+            </div>
+          </div>
+        </li>
+
+        <li><a href="#kurumsal">Kurumsal</a></li>
+        <li><a href="#projeler">Projeler</a></li>
+        <li><a href="#haberler">Haberler</a></li>
+        <li><a href="#iletisim">İletişim</a></li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- KARŞILAMA ALANI -->
+    <!-- KARŞILAMA ALANI (SLİDER) -->
+    <!-- KARŞILAMA ALANI (OKLU SLİDER) -->
+    <section class="hero-slider">
+
+      <!-- Sol Ok Butonu -->
+      <button class="slider-btn prev-btn" onclick="moveSlide(-1)">&#10094;</button>
+
+      <!-- Slaytlar -->
+      <div class="slides-wrapper">
+        <div class="slide active" style="background-image: url('ev1.jpeg');">
+          <div class="container hero-content">
+            <div>
+              <p>BARIŞ İNŞAAT GÜVENCESİYLE</p>
+              <h2>Hayalinizdeki yapıyı<br><span>gerçeğe dönüştürüyoruz.</span></h2>
+              <a href="#projeler" class="main-button">Projelerimizi İncele →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" style="background-image: url('villa2.jpeg');">
+          <div class="container hero-content">
+            <div>
+              <p>MODERN MİMARİ & ESTETİK</p>
+              <h2>Zeytinalanı'nda yükselen<br><span>özel yaşam alanları.</span></h2>
+              <a href="#projeler" class="main-button">Projelerimizi İncele →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide" style="background-image: url('ic1.jpeg');">
+          <div class="container hero-content">
+            <div>
+              <p>KALİTELİ İÇ MEKAN TASARIMI</p>
+              <h2>Konforu ve şıklığı<br><span>bir arada sunuyoruz.</span></h2>
+              <a href="#projeler" class="main-button">Projelerimizi İncele →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sağ Ok Butonu -->
+      <button class="slider-btn next-btn" onclick="moveSlide(1)">&#10095;</button>
+
+    </section>
+    <!-- ÜÇ SÜTUNLU ORTA BLOK -->
+<section class="three-column-section container">
+
+  <!-- Sol sütun: hızlı menü -->
+  <aside class="side-menu">
+    <h3>Hızlı Menü</h3>
+
+    <a href="#kurumsal">Biz Kimiz?</a>
+    <a href="#hizmetler">Hizmetlerimiz</a>
+    <a href="#projeler">Projelerimiz</a>
+    <a href="#haberler">Güncel Haberler</a>
+    <a href="#iletisim">İletişim</a>
+
+    <div class="side-contact">
+      <p>Ücretsiz keşif ve teklif için:</p>
+      <a href="tel:+905333760886">0533 376 08 86</a>
+    </div>
+  </aside>
+
+  <!-- Orta sütun: içerik -->
+  <section class="middle-content">
+    <p>BARİŞ İNŞAAT</p>
+    <h2>Güvenilir yapılar, mutlu yaşamlar.</h2>
+
+    <p>
+      Barış İnşaat; deneyim, kalite ve güven anlayışıyla Urla ve İzmir
+      çevresinde modern yaşam alanları inşa etmektedir.
+    </p>
+
+    <p>
+      Ahmet Turan Demir öncülüğünde; villa, konut, iç mekân ve ticari yapı
+      projelerini profesyonel bir şekilde hayata geçiriyoruz.
+    </p>
+
+    <a href="#iletisim" class="small-button">Bizimle İletişime Geç →</a>
+  </section>
+
+  <!-- Sağ sütun: haberler -->
+  <aside class="side-news">
+    <h3>Güncel Haberler</h3>
+
+    <article>
+      <span>28 EYLÜL 2026</span>
+      <p>Urla'daki yeni villa projemizin çalışmaları başladı.</p>
+    </article>
+
+    <article>
+      <span>15 AĞUSTOS 2026</span>
+      <p>Enerji verimliliği odaklı yapı malzemeleri seminerine katıldık.</p>
+    </article>
+
+    <article>
+      <span>04 TEMMUZ 2026</span>
+      <p>İş güvenliği eğitimlerimiz yenilendi.</p>
+    </article>
+  </aside>
+
+</section>
+
+    <!-- KURUMSAL -->
+    <section class="section container" id="kurumsal">
+      <div class="section-title">
+        <p>KURUMSAL</p>
+        <h2>Güven veren yapılar inşa ediyoruz.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div>
+          <h3>Barış İnşaat</h3>
+          <p>
+            Barış İnşaat; Urla ve İzmir çevresinde konut, villa,
+            ticari yapı ve taahhüt projeleri gerçekleştiren kurumsal bir inşaat firmasıdır.
+          </p>
+
+          <p>
+            Kurucumuz ve müteahhidimiz <strong>Ahmet Turan Demir</strong>,
+            kaliteli malzeme, doğru planlama ve titiz işçilik anlayışıyla
+            her projede güvenilir sonuçlar sunmayı hedeflemektedir.
+          </p>
+        </div>
+
+        <div class="info-box">
+          <h3>Vizyonumuz</h3>
+          <p>
+            Estetik, dayanıklılık ve modern mimariyi birleştiren yapılarla
+            İzmir'in yaşam alanlarına değer katmak.
+          </p>
+
+          <h3>Misyonumuz</h3>
+          <p>
+            Müşteri memnuniyetini merkeze alan, şeffaf ve kaliteli inşaat hizmetleri sunmak.
+          </p>
+        </div>
+      </div>
+
+      <div class="stat-grid">
+        <div>
+          <strong>15+</strong>
+          <span>Yıllık Deneyim</span>
+        </div>
+
+        <div>
+          <strong>32</strong>
+          <span>Teslim Edilen Proje</span>
+        </div>
+
+        <div>
+          <strong>%100</strong>
+          <span>Müşteri Memnuniyeti</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- HİZMETLER -->
+    <section class="services-section" id="hizmetler">
+      <div class="container">
+        <div class="section-title light-title">
+          <p>HİZMETLERİMİZ</p>
+          <h2>Her aşamada profesyonel çözüm.</h2>
+        </div>
+
+        <div class="service-grid">
+
+          <article class="service-card">
+            <span>01</span>
+            <h3>Konut ve Villa Yapımı</h3>
+            <p>Modern mimariye uygun, kaliteli ve güvenli yaşam alanları inşa ediyoruz.</p>
+          </article>
+
+          <article class="service-card">
+            <span>02</span>
+            <h3>Anahtar Teslim Projeler</h3>
+            <p>Planlama aşamasından teslim gününe kadar tüm süreci yönetiyoruz.</p>
+          </article>
+
+          <article class="service-card">
+            <span>03</span>
+            <h3>Kentsel Dönüşüm</h3>
+            <p>Mevcut yapıların güvenli, modern ve dayanıklı yapılara dönüşümünü sağlıyoruz.</p>
+          </article>
+
+          <article class="service-card">
+            <span>04</span>
+            <h3>Proje Danışmanlığı</h3>
+            <p>Bütçe, malzeme, planlama ve uygulama süreçlerinde profesyonel destek sunuyoruz.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJELER -->
+    <section class="section container" id="projeler">
+      <div class="section-title">
+        <p>PROJELERİMİZ</p>
+        <h2>İmzamızı taşıyan yaşam alanları</h2>
+        <span>Proje kartlarına tıklayarak detayları görebilirsin.</span>
+      </div>
+
+      <div class="project-grid">
+
+        <!-- İlk proje: Senin eklediğin ev fotoğrafı -->
+        <a href="#proje1" class="project-card">
+          <img src="ev1.jpeg" alt="Barış Modern Villa">
+          <div class="project-card-text">
+            <small>VİLLA PROJESİ</small>
+            <h3>Demir Doğa Villaları</h3>
+            <p>Urla / İzmir</p>
+          </div>
+        </a>
+
+        <a href="#proje2" class="project-card">
+          <img src="villa2.jpeg" alt="Barış Modern Villa">
+          <div class="project-card-text">
+            <small>VİLLA PROJESİ</small>
+            <h3>Barış Modern Villa</h3>
+            <p>Zeytinalanı / İzmir</p>
+          </div>
+        </a>
+
+        <a href="#proje3" class="project-card">
+          <img src="ic1.jpeg" alt="Barış İç Mekân Tasarımı">
+          <div class="project-card-text">
+            <small>İÇ MEKAN PROJESİ</small>
+            <h3>Barış İç Mekan Tasarımı</h3>
+            <p>İzmir</p>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- HABERLER -->
+    <section class="news-section" id="haberler">
+      <div class="container">
+        <div class="section-title">
+          <p>HABERLER</p>
+          <h2>Barış İnşaat'tan güncel gelişmeler</h2>
+        </div>
+
+        <div class="news-grid">
+
+          <article class="news-card">
+            <span>28 EYLÜL 2026</span>
+            <h3>Urla'daki yeni villa projemizin temel çalışmaları başladı.</h3>
+            <p>Modern yaşam anlayışını doğal çevreyle birleştiren yeni projemiz hayata geçiyor.</p>
+          </article>
+
+          <article class="news-card">
+            <span>15 AĞUSTOS 2026</span>
+            <h3>Enerji verimliliği odaklı yapı malzemeleri seminerine katıldık.</h3>
+            <p>Sürdürülebilir ve çevreye duyarlı yapı anlayışımızı geliştirmeye devam ediyoruz.</p>
+          </article>
+
+          <article class="news-card">
+            <span>04 TEMMUZ 2026</span>
+            <h3>İş güvenliği eğitimlerimiz güncellendi.</h3>
+            <p>Tüm projelerimizde çalışan ve yapı güvenliğini önceliğimiz olarak görüyoruz.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- İLETİŞİM -->
+    <section class="contact-section" id="iletisim">
+      <div class="container contact-grid">
+
+        <div>
+          <p>İLETİŞİM</p>
+          <h2>Projenizi birlikte planlayalım.</h2>
+          <h3>Ahmet Turan Demir</h3>
+          <span>Kurucu / Müteahhit</span>
+        </div>
+
+        <div class="contact-details">
+          <p><strong>Telefon:</strong> <a href="tel:+905333760886">0533 376 08 86</a></p>
+          <p><strong>E-posta:</strong> <a href="mailto:ahmetturandemir5800@gmail.com">ahmetturandemir5800@gmail.com</a></p>
+          <p><strong>Adres:</strong> Urla / İzmir</p>
+          <p><strong>Sosyal Medya:</strong> @barisinsaat5</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <h2>Barış <span>İnşaat</span></h2>
+        <p>Güvenle yükselen yapılar.</p>
+      </div>
+
+      <p>© 2026 Barış İnşaat - Ahmet Turan Demir</p>
+    </div>
+  </footer>
+
+  <!-- PROJE DETAY PENCERELERİ -->
+
+  <section class="project-modal" id="proje1">
+    <div class="modal-content">
+      <a href="#projeler" class="close-button">×</a>
+
+      <img src="ev1.jpeg" alt="Demir Doğa Villaları">
+
+      <p>VİLLA PROJESİ</p>
+      <h2>Demir Doğa Villaları</h2>
+
+      <p>
+        Urla'da hayata geçirilen Demir Doğa Villaları; çağdaş mimarisi,
+        geniş iç mekanları ve ferah bahçe kullanımıyla öne çıkan özel bir yaşam projesidir.
+      </p>
+
+      <ul>
+        <li>Urla / İzmir konumunda</li>
+        <li>Modern villa mimarisi</li>
+        <li>Geniş bahçe alanı</li>
+        <li>Kaliteli dış cephe ve iç mekan uygulaması</li>
+        <li>Barış İnşaat güvencesi</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="project-modal" id="proje2">
+  <div class="modal-content">
+    <a href="#projeler" class="close-button">×</a>
+
+    <p>VİLLA PROJESİ</p>
+    <h2>Barış Modern Villa</h2>
+
+    <p>
+      Barış Modern Villa; Urla'da modern mimari, ferah yaşam alanları
+      ve kaliteli malzemelerle hayata geçirilen özel bir villa projesidir.
+    </p>
+
+    <div class="project-gallery">
+      <img src="villa2.jpeg" alt="Barış Modern Villa - Dış Cephe">
+      <img src="villa2x.jpeg" alt="Barış Modern Villa - Proje Görseli">
+    </div>
+
+    <ul>
+      <li>Urla / İzmir konumunda</li>
+      <li>Modern villa mimarisi</li>
+      <li>Geniş bahçe alanı</li>
+      <li>Kaliteli iç ve dış cephe uygulaması</li>
+      <li>Barış İnşaat güvencesi</li>
+    </ul>
+  </div>
+  </section>
+
+  <section class="project-modal" id="proje3">
+  <div class="modal-content">
+    <a href="#projeler" class="close-button">×</a>
+
+    <p>İÇ MEKÂN PROJESİ</p>
+    <h2>Barış İç Mekân Tasarımı</h2>
+
+    <p>
+      Barış İç Mekân Tasarımı projesinde modern, ferah ve kullanışlı
+      yaşam alanları oluşturulmuştur.
+    </p>
+
+    <div class="project-gallery">
+      <img src="ic1.jpeg" alt="Barış İç Mekân Tasarımı - Görsel 1">
+      <img src="ic2.jpeg" alt="Barış İç Mekân Tasarımı - Görsel 2">
+      <img src="ic3.jpeg" alt="Barış İç Mekân Tasarımı - Görsel 3">
+      <img src="ic4.jpeg" alt="Barış İç Mekân Tasarımı - Görsel 4">
+      <img src="ic5.jpeg" alt="Barış İç Mekân Tasarımı - Görsel 5">
+      <img src="ic6.jpeg" alt="Barış İç Mekân Tasarımı - Görsel 6">
+      <img src="ic7.jpeg" alt="Barış İç Mekân Tasarımı - Görsel 7">
+      <img src="ic8.jpeg" alt="Barış İç Mekân Tasarımı - Görsel 8">
+
+    </div>
+
+    <ul>
+      <li>Modern ve kullanışlı iç mekân planlaması</li>
+      <li>Salon, mutfak ve oda uygulamaları</li>
+      <li>Kaliteli dekorasyon malzemeleri</li>
+      <li>Estetik ve ferah yaşam alanları</li>
+    </ul>
+  </div>
+</section>
+<script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+
+    function showSlide(index) {
+      slides.forEach(slide => slide.classList.remove('active'));
+      
+      if (index >= slides.length) {
+        currentSlide = 0;
+      } else if (index < 0) {
+        currentSlide = slides.length - 1;
+      } else {
+        currentSlide = index;
+      }
+      
+      slides[currentSlide].classList.add('active');
+    }
+
+    function moveSlide(step) {
+      showSlide(currentSlide + step);
+    }
+  </script>
+</body>
+</html>
